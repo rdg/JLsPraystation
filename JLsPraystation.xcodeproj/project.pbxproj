@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8A6DD7208C6AED00DC1E0A /* JLsPraystationView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A6DD6208C6AED00DC1E0A /* JLsPraystationView.h */; };
+		AE8A6DD9208C6AED00DC1E0A /* JLsPraystationView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A6DD8208C6AED00DC1E0A /* JLsPraystationView.m */; };
+		AE8A6DE2208C71F700DC1E0A /* BoxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A6DE0208C71F700DC1E0A /* BoxItem.m */; };
+		AE8A6DE3208C71F700DC1E0A /* BoxItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A6DE1208C71F700DC1E0A /* BoxItem.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE8A6DD3208C6AED00DC1E0A /* JLsPraystation.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLsPraystation.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8A6DD6208C6AED00DC1E0A /* JLsPraystationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLsPraystationView.h; sourceTree = "<group>"; };
+		AE8A6DD8208C6AED00DC1E0A /* JLsPraystationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLsPraystationView.m; sourceTree = "<group>"; };
+		AE8A6DDA208C6AED00DC1E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8A6DE0208C71F700DC1E0A /* BoxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoxItem.m; sourceTree = "<group>"; };
+		AE8A6DE1208C71F700DC1E0A /* BoxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8A6DCF208C6AED00DC1E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8A6DC9208C6AED00DC1E0A = {
+			isa = PBXGroup;
+			children = (
+				AE8A6DD5208C6AED00DC1E0A /* JLsPraystation */,
+				AE8A6DD4208C6AED00DC1E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8A6DD4208C6AED00DC1E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8A6DD3208C6AED00DC1E0A /* JLsPraystation.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8A6DD5208C6AED00DC1E0A /* JLsPraystation */ = {
+			isa = PBXGroup;
+			children = (
+				AE8A6DE1208C71F700DC1E0A /* BoxItem.h */,
+				AE8A6DE0208C71F700DC1E0A /* BoxItem.m */,
+				AE8A6DD6208C6AED00DC1E0A /* JLsPraystationView.h */,
+				AE8A6DD8208C6AED00DC1E0A /* JLsPraystationView.m */,
+				AE8A6DDA208C6AED00DC1E0A /* Info.plist */,
+			);
+			path = JLsPraystation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE8A6DD0208C6AED00DC1E0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8A6DD7208C6AED00DC1E0A /* JLsPraystationView.h in Headers */,
+				AE8A6DE3208C71F700DC1E0A /* BoxItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE8A6DD2208C6AED00DC1E0A /* JLsPraystation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8A6DDD208C6AED00DC1E0A /* Build configuration list for PBXNativeTarget "JLsPraystation" */;
+			buildPhases = (
+				AE8A6DCE208C6AED00DC1E0A /* Sources */,
+				AE8A6DCF208C6AED00DC1E0A /* Frameworks */,
+				AE8A6DD0208C6AED00DC1E0A /* Headers */,
+				AE8A6DD1208C6AED00DC1E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLsPraystation;
+			productName = JLsPraystation;
+			productReference = AE8A6DD3208C6AED00DC1E0A /* JLsPraystation.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8A6DCA208C6AED00DC1E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Georg Duemlein";
+				TargetAttributes = {
+					AE8A6DD2208C6AED00DC1E0A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AE8A6DCD208C6AED00DC1E0A /* Build configuration list for PBXProject "JLsPraystation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE8A6DC9208C6AED00DC1E0A;
+			productRefGroup = AE8A6DD4208C6AED00DC1E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8A6DD2208C6AED00DC1E0A /* JLsPraystation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8A6DD1208C6AED00DC1E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8A6DCE208C6AED00DC1E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8A6DE2208C71F700DC1E0A /* BoxItem.m in Sources */,
+				AE8A6DD9208C6AED00DC1E0A /* JLsPraystationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE8A6DDB208C6AED00DC1E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE8A6DDC208C6AED00DC1E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE8A6DDE208C6AED00DC1E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29AVQVW2VK;
+				INFOPLIST_FILE = JLsPraystation/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = preset.de.JLsPraystation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		AE8A6DDF208C6AED00DC1E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 29AVQVW2VK;
+				INFOPLIST_FILE = JLsPraystation/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = preset.de.JLsPraystation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8A6DCD208C6AED00DC1E0A /* Build configuration list for PBXProject "JLsPraystation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8A6DDB208C6AED00DC1E0A /* Debug */,
+				AE8A6DDC208C6AED00DC1E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8A6DDD208C6AED00DC1E0A /* Build configuration list for PBXNativeTarget "JLsPraystation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8A6DDE208C6AED00DC1E0A /* Debug */,
+				AE8A6DDF208C6AED00DC1E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8A6DCA208C6AED00DC1E0A /* Project object */;
+}
